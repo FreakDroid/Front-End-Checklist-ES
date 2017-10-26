@@ -52,7 +52,7 @@ Algunos recursos poseen un emoticón para ayudar a entender el tipo de contenido
 <!doctype html>
 ```
 
-> 📖 [Determining the character encoding - HTML5 W3C](https://www.w3.org/TR/html5/syntax.html#determining-the-character-encoding)
+> 📖 [Determinando la codificación de caracteres - HTML5 W3C](https://www.w3.org/TR/html5/syntax.html#determining-the-character-encoding) `(Fuente en Inglés)`
 
 *Los siguientes 3 meta etiquetas (Charset, X-UA Compatible and Viewport) necesitan ir primero en el head.*
 
@@ -86,7 +86,7 @@ Algunos recursos poseen un emoticón para ayudar a entender el tipo de contenido
 <title>Título de página menor a 65 caracteres</title>
 ```
 
-> 📖 [Title - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
+> 📖 [Título - HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 
 * [ ] **Description:** ![Alto][high_img] Una meta descripción es proporcionada, es única y no posee más de 150 caracteres.
 
@@ -104,11 +104,11 @@ Algunos recursos poseen un emoticón para ayudar a entender el tipo de contenido
 <link rel="icon" type="image/png" href="https://example.com/favicon.png">
 ```
 
-> * 🛠 [Favicon Generator](https://www.favicon-generator.org/)
-> * 🛠 [RealFaviconGenerator](https://realfavicongenerator.net/)
-> * 📖 [Favicon Cheat Sheet](https://github.com/audreyr/favicon-cheat-sheet)
-> * 📖 [Favicons, Touch Icons, Tile Icons, etc. Which Do You Need? - CSS Tricks](https://css-tricks.com/favicon-quiz/)
-> * 📖 [PNG favicons - caniuse](https://caniuse.com/#feat=link-icon-png)
+> * 🛠 [Generador de Favicon](https://www.favicon-generator.org/) `(Fuente en Inglés)`
+> * 🛠 [RealFaviconGenerator](https://realfavicongenerator.net/) `(Fuente en Inglés)`
+> * 📖 [Chuleta de apuntes Favicon](https://github.com/audreyr/favicon-cheat-sheet) `(Fuente en Inglés)`
+> * 📖 [Favicons, Iconos Tactiles, Iconos de Título, etc. ¿Cual necesitas? - CSS Tricks](https://css-tricks.com/favicon-quiz/) `(Fuente en Inglés)`
+> * 📖 [favicons PNG - caniuse](https://caniuse.com/#feat=link-icon-png) `(Fuente en Inglés)`
 
 * [ ] **Apple Touch Icon:** ![Bajo][low_img] Apple touch favicon apple-mobile-web-app-capable está presente. *(Crea tu archivo Apple Icon con una dimensión de al menos 200x200px para dar soporte a todas las dimensiones que podrías necesitar)*
 
@@ -117,7 +117,7 @@ Algunos recursos poseen un emoticón para ayudar a entender el tipo de contenido
 <link rel="apple-touch-icon" href="/custom-icon.png">
 ```
 
-> 📖 [Configuring Web Applications](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
+> 📖 [Configurando Aplicaciones Web](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html) `(Fuente en Inglés)`
 
 - [ ] **Windows Tiles:**![Low][low_img] Windows tiles están presentes y enlazadas.
 
@@ -142,7 +142,7 @@ El marcado xml mínimo requerido para el archivo browserconfig.xml es el siguien
 </browserconfig>
 ```
 
-> 📖 [Browser configuration schema reference](https://msdn.microsoft.com/en-us/library/dn320426(v=vs.85).aspx)
+> 📖 [Esquema de referencia para configuracion del navegador](https://msdn.microsoft.com/en-us/library/dn320426(v=vs.85).aspx) `(Fuente en Inglés)`
 
 * [ ] **Canonical:** ![Medium][medium_img] Usa `rel="canonical"` para evitar contenido duplicado.
 
@@ -178,13 +178,13 @@ El marcado xml mínimo requerido para el archivo browserconfig.xml es el siguien
 
 * [ ] **Comentarios condicionales:** ![Bajo][low_img] Comentarios condicionales están presentes para IE si son necesarios.
 
-> 📖 [About conditional comments (Internet Explorer) - MSDN - Microsoft](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx)
+> 📖 [Acerca comentarios condicionales (Internet Explorer) - MSDN - Microsoft](https://msdn.microsoft.com/en-us/library/ms537512(v=vs.85).aspx) `(Fuente en Inglés)`
 
 * [ ] **RSS feed:** ![Bajo][low_img] Si tu proyecto es un blog o tiene artículos, un enlace RSS fue proprocionado.
 
 * [ ] **CSS Crítico:** ![Medio][medium_img] El CSS crítio (o "above the fold") contiene todo el CSS usado para renderizar la porción visible de la página. Se incrusta antes de la llamada principal a CSS y entre `<style></style>` en una sola línea (minificado).
 
-> 🛠 [Critical by Addy Osmani on Github](https://github.com/addyosmani/critical)
+> 🛠 [Critical por Addy Osmani en Github](https://github.com/addyosmani/critical) `(Fuente en Inglés)`
 
 * [ ] **Orden del CSS:** ![Alto][high_img] Todos los archivos CSS son cargados antes que cualquier archivo JavaScript en el `<head>`. (Excepto en los casos donde los archivos JS se cargan asíncronamente en tus páginas).
 
@@ -204,8 +204,8 @@ El marcado xml mínimo requerido para el archivo browserconfig.xml es el siguien
 <meta property="og:locale" content="en_US">
 ```
 
-> * 📖 [A Guide to Sharing for Webmasters](https://developers.facebook.com/docs/sharing/webmasters/)
-> * 🛠 Test your page with the [Facebook OG testing](https://developers.facebook.com/tools/debug/)
+> * 📖 [Una guía para compartir por Webmaster](https://developers.facebook.com/docs/sharing/webmasters/) `(Fuente en Inglés)`
+> * 🛠 Prueba tu página con Test [Facebook OG testing](https://developers.facebook.com/tools/debug/) `(Fuente en Inglés)`
 
 * [ ] **Twitter Card:** ![Bajo][low_img]
 
@@ -219,8 +219,8 @@ El marcado xml mínimo requerido para el archivo browserconfig.xml es el siguien
 <meta name="twitter:image" content="https://example.com/image.jpg">
 ```
 
-> * 📖 [Getting started with cards — Twitter Developers](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
-> * 🛠 Test your page with the [Twitter card validator](https://cards-dev.twitter.com/validator)
+> * 📖 [Comenzando con tarjetas — Centro de desarrolladores de Twitter](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started) `(Fuente en Inglés)`
+> * 🛠 Prueba tu página con [Twitter card validator](https://cards-dev.twitter.com/validator) `(Fuente en Inglés)`
 
 **[⬆ volver a arriba](#tabla-de-contenidos)**
 
@@ -232,13 +232,13 @@ El marcado xml mínimo requerido para el archivo browserconfig.xml es el siguien
 
 * [ ] **Elementos semánticos HTML5:** ![Alto][high_img] Los elementos semánticos HTML5 son usados apropiadamente (header, section, footer, main...).
 
-> 📖 [HTML Reference](http://htmlreference.io/)
+> 📖 [Referencia HTML](http://htmlreference.io/) `(Fuente en Inglés)`
 
 * [ ] **Páginas de error:** ![Alto][high_img] Páginas de error 400 y 5xx existen. Recuerda que las páginas de error 5xx necesitan tener su CSS integrado (sin llamadas externas en el servidor actual).
 
 * [ ] **Noopener:** ![Medio][medium_img] En caso que uses enlaces externos con `target="_blank"`, tu enlace debe tener un atributo `rel="noopener"`para evitar tab nabbing. Si necesitas dar soporte a versiones antigüas de Firefox, usa `rel="noopener noreferrer"`.
 
-> 📖 [About rel=noopener](https://mathiasbynens.github.io/rel-noopener/)
+> 📖 [Acerca rel=noopener](https://mathiasbynens.github.io/rel-noopener/) `(Fuente en Inglés)`
 
 * [ ] **Limpiar comentarios:** ![Bajo][low_img] Código innecesario necesita ser removido antes de enviar la página a producción.
 
@@ -246,7 +246,7 @@ El marcado xml mínimo requerido para el archivo browserconfig.xml es el siguien
 
 * [ ] **Obedece al W3C:** ![Alto][high_img] Todas las páginas necesitan ser aprobadas por el validador W3C para identificar posibles problemas en el código HTML.
 
-> 🛠 [W3C validator](https://validator.w3.org/)
+> 🛠 [Validador W3C](https://validator.w3.org/) `(Fuente en Inglés)`
 
 * [ ] **HTML Lint:** ![Alto][high_img] Uso herramientas para ayudarme a analizar cualquier problema que podría tener en mi código HTML.
 
